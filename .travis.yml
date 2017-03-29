@@ -3,7 +3,7 @@ node_js: node
 deploy:
   provider: heroku
   api_key:
-    secure: <YOUR ENCRYPTED KEY HERE>
-  app: <YOUR APP NAME HERE>
+    secure: YCWmWzXZ0nZerZl6jSsqpRKP9WYoi5+FWzxHpbcUmeBW+/EVyXT1MF7UBonliU/gqenANrt1M7sczrfxkQJxTo04zOTIOjRI9OU09+P2513jhe1X1Cl4yaEn1p2f/I3FIi6c7nv6Ll6VrP46Ymrp2/JGF3FeXjeiDHxhTU7SC4WsNErJIklmqXyLSzrDr0120msltj0Jz1DolbjTH6DYN3qWKZ+ELFlStt4rNiRyoo5FAwFQpb/53WJEJD8ekKHCmgWRjjwECCvPYto2+gDETBsQ2VfqY0OBbNph0qBvmP77P9fl+MI3YNVs/zwQRbwjyty3/fzAvRX8xw2YznSR62bHjaDHm6l5cgHRPCieE2nlvy5uUZaLl0u1SQx+INM6lOxAoa1Jq3yQnVt0yvZW2+Zh90nDK6b4vbFJMjf2UFzh0uzUj6SbG/bdtP2sUNqFm/xrBz4R6ubGLI6haE1p0r1ntWbtU/gqQPjCjsG+mlD3aSKlJtqSKiHpO2HAFB0/MIns1op+71SafN3jGyUs3YwVS0CZQnWHGHBw+VvaGQ05wdEhuN8khcpPZC8oI09mmy/6C3dMGdMcEUzkJNAmDx65LA+N6locSulEjmp9TN/WNEH3WMT+B5FpnvcJ2HOR71rQda8jAZo7QY0NRTYiiQEifVIYQYqjFcTJNcpPGPA=
+  app: quiet-ridge-22801
   on:
-    repo: <YOUR REPO INFO HERE>
+    repo: Cohort-9/todo-ramon-colin
