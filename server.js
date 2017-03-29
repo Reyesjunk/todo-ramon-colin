@@ -24,6 +24,10 @@ app.delete('/', (req, res) => {
   res.json({});
 });
 
+app.post('/', (req, res) => {
+  res.json({'title':'a todo'});
+});
+
 app.listen(process.env.PORT || 8080);
 
 exports.app = app;
