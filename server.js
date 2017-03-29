@@ -16,13 +16,13 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  res.json({'title':'a todo'});  
+  res.json({'title':'a todo'});
 });
 
 app.delete('/', (req, res) => {
-  res.json({'title':'a todo'});
+  res.send('DELETE request to homepage');
   // res.status(201).end();
-})
+});
 
 app.listen(process.env.PORT || 8080);
 
