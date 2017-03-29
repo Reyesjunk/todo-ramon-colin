@@ -22,7 +22,7 @@ app.post('/', (req, res) => {
 app.delete('/', (req, res) => {
   // res.json({});
   // res.send('DELETE request to homepage');
-  res.status(201).end();
+  res.status(204).end();
 });
 
 app.listen(process.env.PORT || 8080);
