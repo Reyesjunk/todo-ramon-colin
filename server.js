@@ -5,7 +5,8 @@ var app = express();
 app.use(function(req, res, next) {
   res.header({
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+    "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+    "Access-Control-Allow-Methods": "DELETE, POST, PUT, GET, PATCH, OPTIONS"
   });  
   next();
 });
@@ -20,7 +21,7 @@ app.post('/', (req, res) => {
 });
 
 app.delete('/', (req, res) => {
-  // res.json({});
+  res.json({});
   // res.send('DELETE request to homepage');
   res.status(204).end();
 });
