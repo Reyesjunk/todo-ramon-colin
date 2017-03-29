@@ -20,8 +20,9 @@ app.post('/', (req, res) => {
 });
 
 app.delete('/', (req, res) => {
-  res.send('DELETE request to homepage');
-  // res.status(201).end();
+  // res.json({});
+  // res.send('DELETE request to homepage');
+  res.status(201).end();
 });
 
 app.listen(process.env.PORT || 8080);
