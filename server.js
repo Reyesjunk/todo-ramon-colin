@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   res.json({})
 });
 
+app.post('/', (req, res) => {
+  res.json({object:'super-string-key'})
+});
+
 
 app.listen(process.env.PORT || 8080);
 
