@@ -20,8 +20,8 @@ app.post('/', (req, res) => {
 });
 
 app.delete('/', (req, res) => {
-  // res.json({'title':'a todo'});
-  res.status(201).end();
+  res.json({'title':'a todo'});
+  // res.status(201).end();
 })
 
 app.listen(process.env.PORT || 8080);
