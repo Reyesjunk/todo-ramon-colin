@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  res.json({object:'super-string-key'})
+  res.json({'object':'super-string-key'})
 });
 
 
