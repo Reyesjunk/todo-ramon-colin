@@ -21,7 +21,7 @@ app.post('/', (req, res) => {
 });
 
 app.delete('/', (req, res) => {
-  res.json({});
+  res.json([]);
   // res.send('DELETE request to homepage');
   res.status(204).end();
 });
