@@ -6,4 +6,4 @@ deploy:
     secure: <YOUR ENCRYPTED KEY HERE>
   app: serene-escarpment-83167
   on:
-    repo: Cohort-9 / todo-ramon-colin
+    repo: Cohort-9/todo-ramon-colin
