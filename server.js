@@ -16,9 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  res.json(
-    {'todo': {'title':'super-string-key'}}
-  )  
+  res.json({'title':'super-string-key'});  
 });
 
 
