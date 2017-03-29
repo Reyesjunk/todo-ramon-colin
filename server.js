@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
 
 
 app.get('/', (req, res) => {
-  res.json([])
+  res.json([{}]);
 });
 
 app.post('/', (req, res) => {
