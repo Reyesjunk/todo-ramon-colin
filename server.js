@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
   res.json({
     'title':'a todo',
-    'completed': false,
+    'completed': 'false',
     'url': 'dunno'
 
   });
