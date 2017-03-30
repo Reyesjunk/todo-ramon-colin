@@ -13,11 +13,15 @@ app.use(function(req, res, next) {
 
 
 app.get('/', (req, res) => {
-  res.json(['string']);
+  res.json([]);
 });
 
 app.post('/', (req, res) => {
-  res.json({'title':'a todo'});
+  res.json({
+    'title':'a todo',
+    'completed': true
+
+  });
 });
 
 app.delete('/', (req, res) => {
